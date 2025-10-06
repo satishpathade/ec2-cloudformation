@@ -49,7 +49,7 @@ Before deploying, ensure you have:
 ### Using AWS Management Console
 1. Open the **CloudFormation** service.
 2. Click **Create Stack → With new resources (standard)**.
-3. Upload `ec2-template.yaml`.
+3. Upload `ec2-autolaunch.yaml`.
 4. Follow the prompts and click **Create Stack**.
 
 ### Using AWS CLI
