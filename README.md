@@ -56,6 +56,6 @@ Before deploying, ensure you have:
 ```bash
 aws cloudformation create-stack \
   --stack-name ec2-autolounch \
-  --template-body file://ec2-lounch.yaml \
+  --template-body file://ec2-autolaunch.yaml \
   --region ap-southeast-1 \
   --capabilities CAPABILITY_NAMED_IAM
