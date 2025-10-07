@@ -39,8 +39,8 @@ Before deploying, ensure you have:
 
 - An **AWS account**.
 - AWS CLI or AWS Management Console access.
-- **AMI ID** valid in Singapore region (`ami-088d74defe9802f14` change your id).
-- **EC2 Key Pair** created in your AWS account (`web-serverkey` your key-pair).
+- **AMI ID** valid in Singapore region (`ami-088d74defe9802f14` "your ami-id").
+- **EC2 Key Pair** created in your AWS account (`web-serverkey` "your key-pair").
 
 ---
 
@@ -54,8 +54,4 @@ Before deploying, ensure you have:
 
 ### Using AWS CLI
 ```bash
-aws cloudformation create-stack \
-  --stack-name ec2-autolounch \
-  --template-body file://ec2-autolaunch.yaml \
-  --region ap-southeast-1 \
-  --capabilities CAPABILITY_NAMED_IAM
+aws cloudformation create-stack --stack-name ec2-autolounch --template-body file://ec2-autolaunch.yaml --region ap-southeast-1 --capabilities CAPABILITY_NAMED_IAM
